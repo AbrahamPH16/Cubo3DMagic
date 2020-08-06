@@ -32,7 +32,7 @@ li{
     background-size: 100% 100%;
     position: absolute;
     margin-left: 42%;
-    margin-top: 22%;
+    margin-top: 13%;
     -webkit-transform-style: preserve-3d;
     -webkit-transform: rotateX(13deg);
     -webkit-animation: move 5s linear infinite;
@@ -223,5 +223,12 @@ li{
     }
     100%{
         -webkit-transform: rotateX(13deg) rotateY(360deg); 
+    }
+}
+
+@media screen and (max-width:425px){
+    .box{
+        margin-left: 25%;
+        margin-top: 50%;
     }
 }
